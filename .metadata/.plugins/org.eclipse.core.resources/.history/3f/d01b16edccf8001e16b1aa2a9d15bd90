@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	
+	<bean id="t1" class="org.kodnest.bean.Trainer">
+		<property name="tid" value="T001"></property>
+		<property name="tname" value="Jack"></property>
+	</bean>
+	
+	<bean id="u1" class="org.kodnest.bean.University">
+		<property name="uid" value="U001"></property>
+		<property name="uname" value="SRM University"></property>
+	</bean>
+
+
+</beans>

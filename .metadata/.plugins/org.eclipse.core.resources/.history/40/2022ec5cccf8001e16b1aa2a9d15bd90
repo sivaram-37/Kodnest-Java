@@ -1,0 +1,10 @@
+package org.kodnest.bean;
+
+public class Trainer {
+	private int tid;
+	private String tname;
+	public Trainer() {
+		super();
+	}
+
+}

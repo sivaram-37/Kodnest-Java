@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!--  Setter Injection  -->
+	<bean id="p1" class="org.kodnest.bean.Product">
+		<property name="pid" value="1"></property>
+		<property name="pname" value="Mobile"></property>
+	</bean>
+
+	<!-- Constructor Injection -->
+	<bean id="p2" class="org.kodnest.bean.Product">
+		<constructor-arg name="pid" value="2"></constructor-arg>
+		<constructor-arg name="pname" value="Charger"></constructor-arg>
+	</bean>
+
+	<!-- Method Injection -->
+	<bean id="p3" class="org.kodnest.bean.Product">
+		<constructor-arg name="pid" value="3"></constructor-arg>
+		<constructor-arg name="pname" value="Earphone"></constructor-arg>
+	</bean>
+
+</beans>

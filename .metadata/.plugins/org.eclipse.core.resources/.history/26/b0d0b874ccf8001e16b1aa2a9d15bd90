@@ -1,0 +1,12 @@
+package org.kodnest.bean;
+
+public class University {
+	private int uid;
+	private String uname;
+	Trainer t;
+	public University() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+}

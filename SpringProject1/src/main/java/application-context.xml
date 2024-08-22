@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+  
+  <bean id="s1" class="org.kodnest.bean.Student"> 
+  	<property name="id" value="1"></property>
+  	<property name="name" value="John"></property>
+  </bean>
+  
+  <bean id="s2" class="org.kodnest.bean.Student"> 
+  	<property name="id" value="2"></property>
+  	<property name="name" value="Jack"></property>
+  </bean>
+  
+  <bean id="s3" class="org.kodnest.bean.Student"> 
+  	<property name="id" value="3"></property>
+  	<property name="name" value="Ria"></property>
+  </bean>
+  
+  <bean id="s4" class="org.kodnest.bean.Student"> 
+  	<property name="id" value="4"></property>
+  	<property name="name" value="Ryan"></property>
+  </bean>
+
+  <bean id="s5" class="org.kodnest.bean.Student"> 
+  	<property name="id" value="5"></property>
+  	<property name="name" value="Rajan"></property>
+  </bean>
+  
+  <bean id="l1" class="org.kodnest.bean.Laptop">
+  	<property name="color" value="red"></property>
+  	<property name="name" value="Dell insprion 3000"></property>
+  </bean>
+  
+</beans>

@@ -1,0 +1,28 @@
+package com.recursion;
+
+import java.util.Arrays;
+
+public class FibonacciSeries {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int n=5;
+		System.out.print(fab(n));
+
+	}
+
+	private static String fab(int n) {
+		int i=0;
+		int a[]=new int[n];
+		a[i]=0;
+		a[i+1]=1;
+		while(i<=n) {
+			a[i]=a[i-2]+a[i-1];
+			i++;
+		}
+		return Arrays.toString(a);
+		
+	}
+
+}

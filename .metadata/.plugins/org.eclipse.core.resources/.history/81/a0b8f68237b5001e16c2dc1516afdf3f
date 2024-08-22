@@ -1,0 +1,25 @@
+package com.recursion;
+
+import java.util.Scanner;
+
+public class factorial {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in=new Scanner(System.in);
+		int n=in.nextInt();
+		in.close();
+		int res=fact(n);
+		System.out.println(res);
+	}
+
+	private static  int fact(int n) {
+		// TODO Auto-generated method stub
+		if(n==0) {
+			return 0;
+		}
+		return n*fact(n-1);
+		
+	}
+
+}

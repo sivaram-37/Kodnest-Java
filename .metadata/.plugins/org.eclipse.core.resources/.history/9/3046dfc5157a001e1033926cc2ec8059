@@ -1,0 +1,6 @@
+package octoberBatch;
+
+class Kodnest {
+	public static void main(String[] args) {
+		System.out.println("October Batch");	}
+}

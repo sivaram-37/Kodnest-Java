@@ -1,0 +1,15 @@
+package org.kodnest;
+
+import org.kodnest.bean.Trainer;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("application-context.xml");
+    	Object trainer = context.getBean("t1");
+    	System.out.println(trainer);
+    	
+    }
+}

@@ -1,0 +1,5 @@
+package com.kodnest.bean;
+
+public class University {
+
+}
